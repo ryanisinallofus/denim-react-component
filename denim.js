@@ -12,7 +12,7 @@ module.exports = {
           if (!!val.trim()) {
             return "A Name must be entered!";
           } else if (val[0] !== x[0].toUppercase()) {
-            return "Name must be uppercase!";
+            return "Name must be capitalized!";
           }
         }
       },
