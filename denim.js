@@ -7,7 +7,7 @@ module.exports = {
 
   prompts: {
       Name: {
-        message: "Name your component (Capitalized): ",
+        message: "Capitalized name for your component (Class Name): ",
         validate: function (val) {
           if (!!val.trim()) {
             return "A Name must be entered!";
@@ -17,7 +17,7 @@ module.exports = {
         }
       },
       name: {
-        message: "Name your component (lowercase): ",
+        message: "Lowercase name for your component (file, folder, css name)",
         validate: function (val) {
           if (!!val.trim()) {
             return "A name must be entered!";
