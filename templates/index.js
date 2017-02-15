@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './<%= name %>.css';
 
 const <%= Name %> = () => (
-  <div>Content</div>
+  <div className={styles.<%= name %>}>Content</div>
 );
 
 export default <%= Name %>;
